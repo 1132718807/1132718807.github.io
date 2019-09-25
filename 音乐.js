@@ -1,0 +1,20 @@
+$(function(){
+	$("#search_input").click(function(){
+		$("#search_ul").show();
+	})
+	$("#search_input").blur(function(){
+		$("#search_ul").hide();
+	})
+	$("#login").mouseover(function(){
+		document.getE
+		$("#qie").show();
+		$("#qie1").hide();
+		$("#login_ul").show();
+	})
+	$("#login").mouseout(function(){
+		$("#qie").hide();
+		$("#qie1").show();
+		$("#login_ul").hide();
+	})
+	
+})
